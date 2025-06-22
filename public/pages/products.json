@@ -1,141 +1,96 @@
-
 {
-  "meta": {
-    "title": "Brass Products - Shiv Brass Industries",
-    "description": "Comprehensive range of precision brass components including fittings, valves, electrical components, and custom forged parts"
-  },
   "hero": {
     "type": "image",
+    "title": "Precision Components Manufacturing",
     "enabled": true,
-    "title": "Precision Brass Product Range",
-    "subtitle": "High-quality forged brass components for critical applications",
-    "backgroundImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=2000&q=80"
+    "subtitle": "High-Quality Industrial Components Engineered for Performance and Reliability",
+    "backgroundImage": "https://images.unsplash.com/photo-1581291518857-4e27b48ff24e"
+  },
+  "meta": {
+    "title": "Parth Enterprise | Precision Industrial Components",
+    "description": "Leading manufacturer of precision ball valves, tower bolts, and industrial components with 25 years of manufacturing expertise."
+  },
+  "products": {
+    "categories": [
+      {
+        "id": "valves",
+        "name": "Ball Valves",
+        "image": "https://images.unsplash.com/photo-1581578017093-65e44f3bcynb",
+        "products": [
+          {
+            "id": "industrial-ball-valve",
+            "name": "Industrial Ball Valve",
+            "image": "https://images.unsplash.com/photo-1581578017093-65e44f3bc123",
+            "description": "High-performance ball valve designed for critical industrial applications with superior sealing and durability",
+            "applications": [
+              "Chemical Processing",
+              "Oil and Gas Industry",
+              "Water Treatment Plants",
+              "Manufacturing Facilities"
+            ],
+            "specifications": [
+              "Pressure Rating: Up to 2500 PSI",
+              "Temperature Range: -40°C to 250°C",
+              "Material: Stainless Steel, Carbon Steel",
+              "Size Range: 1/2 inch to 24 inches"
+            ]
+          }
+        ],
+        "description": "Premium ball valves engineered for maximum performance and reliability in industrial environments"
+      },
+      {
+        "id": "fasteners",
+        "name": "Tower Bolts",
+        "image": "https://images.unsplash.com/photo-1581578017093-65e44f3bcdef",
+        "products": [
+          {
+            "id": "heavy-duty-tower-bolt",
+            "name": "Heavy Duty Tower Bolt",
+            "image": "https://images.unsplash.com/photo-1581578017093-65e44f3bcxyz",
+            "description": "Robust tower bolt designed for secure and reliable fastening in construction and industrial applications",
+            "applications": [
+              "Construction Projects",
+              "Industrial Machinery",
+              "Infrastructure Development",
+              "Equipment Mounting"
+            ],
+            "specifications": [
+              "Material: Stainless Steel, Mild Steel",
+              "Length Range: 2 inches to 12 inches",
+              "Corrosion Resistance",
+              "High Tensile Strength"
+            ]
+          }
+        ],
+        "description": "Precision-engineered tower bolts providing superior strength and reliability"
+      }
+    ],
+    "categoriesTitle": "Our Product Categories",
+    "allProductsTitle": "Complete Product Range",
+    "categoriesSubtitle": "Find the Perfect Components for Your Industrial Needs",
+    "allProductsSubtitle": "Comprehensive Solutions with 25 Years of Manufacturing Excellence"
   },
   "sections": {
-    "products": {
-      "type": "products",
-      "enabled": true,
-      "title": "Product Categories",
-      "subtitle": "Precision-engineered brass components for diverse industrial applications",
-      "items": []
-    },
     "cta": {
       "type": "cta",
+      "title": "Need Custom Precision Components?",
       "enabled": true,
-      "title": "Need a Custom Quote?",
-      "subtitle": "Get personalized pricing and specifications for your brass component requirements. Our experts are ready to assist you.",
+      "subtitle": "Our experts are ready to develop tailored solutions for your specific requirements",
       "primaryCTA": {
         "text": "Request Custom Quote",
         "action": "/contact"
       },
       "secondaryCTA": {
         "text": "Technical Support",
-        "action": "tel:+91-288-2710234"
+        "action": "+91-9999999999"
       }
+    },
+    "products": {
+      "type": "products",
+      "items": [],
+      "title": "Our Precision Product Range",
+      "enabled": true,
+      "subtitle": "High-Quality Industrial Components Manufactured with Precision and Care"
     }
-  },
-  "products": {
-    "allProductsTitle": "Complete Brass Product Range",
-    "allProductsSubtitle": "Precision-engineered brass components designed for demanding industrial applications",
-    "categoriesTitle": "Brass Product Categories",
-    "categoriesSubtitle": "Specialized brass components across automotive, aerospace, pneumatic, and hydraulic applications",
-    "categories": [
-      {
-        "id": "brass-fittings",
-        "name": "Brass Fittings",
-        "description": "High-quality brass pipe fittings for plumbing and pneumatic applications",
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80",
-        "products": [
-          {
-            "id": "brass-elbow",
-            "name": "Brass Elbow Fittings",
-            "description": "Precision-machined brass elbow fittings for pipe connections",
-            "specifications": ["Size: 1/4\" to 4\"", "Material: CZ121 Brass", "Thread: BSP/NPT"],
-            "applications": ["Plumbing", "Pneumatic Systems", "Gas Distribution"],
-            "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80"
-          },
-          {
-            "id": "brass-tee",
-            "name": "Brass Tee Fittings",
-            "description": "Three-way brass tee fittings for branching pipe networks",
-            "specifications": ["Size: 1/4\" to 3\"", "Material: CZ121 Brass", "Pressure: Up to 16 bar"],
-            "applications": ["Distribution Networks", "Hydraulic Systems", "Industrial HVAC"],
-            "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80"
-          }
-        ]
-      },
-      {
-        "id": "brass-valves",
-        "name": "Brass Valves",
-        "description": "Industrial brass valves for flow control and regulation",
-        "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80",
-        "products": [
-          {
-            "id": "brass-ball",
-            "name": "Brass Ball Valves",
-            "description": "Quarter-turn brass ball valves for reliable flow control",
-            "specifications": ["Size: 1/2\" to 4\"", "Material: CW617N Brass", "Working Pressure: 40 bar"],
-            "applications": ["Water Systems", "Gas Lines", "Industrial Processes"],
-            "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=400&q=80"
-          },
-          {
-            "id": "brass-gate",
-            "name": "Brass Gate Valves",
-            "description": "Full-bore brass gate valves for on/off applications",
-            "specifications": ["Size: 1/2\" to 6\"", "Material: CC754S Brass", "Temperature: -20°C to 180°C"],
-            "applications": ["Water Distribution", "Steam Lines", "Chemical Processing"],
-            "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=400&q=80"
-          }
-        ]
-      },
-      {
-        "id": "automotive-components",
-        "name": "Automotive Components",
-        "description": "Precision brass components for automotive applications",
-        "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=600&q=80",
-        "products": [
-          {
-            "id": "brake-fittings",
-            "name": "Brake System Fittings",
-            "description": "High-precision brass fittings for automotive brake systems",
-            "specifications": ["Size: 1/8\" to 1\"", "Standard: DOT compliant", "Material: Various Brass Alloys"],
-            "applications": ["Brake Connections", "Hydraulic Lines", "ABS Systems"],
-            "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=400&q=80"
-          },
-          {
-            "id": "fuel-components",
-            "name": "Fuel System Components",
-            "description": "Corrosion-resistant brass components for fuel systems",
-            "specifications": ["Bore Dia: 5mm to 50mm", "Material: CuZn39Pb3", "Tolerance: ±0.02mm"],
-            "applications": ["Fuel Injectors", "Carburetor Parts", "Fuel Lines"],
-            "image": "https://images.unsplash.com/photo-1531297484001-80022131f5a1?auto=format&fit=crop&w=400&q=80"
-          }
-        ]
-      },
-      {
-        "id": "electrical-components",
-        "name": "Electrical Components",
-        "description": "Conductive brass components for electrical applications",
-        "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=600&q=80",
-        "products": [
-          {
-            "id": "electrical-terminals",
-            "name": "Electrical Terminals",
-            "description": "High-conductivity brass terminals for electrical connections",
-            "specifications": ["Current Rating: 10A to 250A", "Material: CuZn37", "Finish: Nickel Plated"],
-            "applications": ["Control Panels", "Switchgear", "Distribution Boards"],
-            "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=400&q=80"
-          },
-          {
-            "id": "cable-glands",
-            "name": "Brass Cable Glands",
-            "description": "Weatherproof brass cable glands for secure cable entry",
-            "specifications": ["Thread: M12 to M63", "Material: CW617N Brass", "IP Rating: IP68"],
-            "applications": ["Outdoor Equipment", "Marine Electronics", "Industrial Installations"],
-            "image": "https://images.unsplash.com/photo-1483058712412-4245e9b90334?auto=format&fit=crop&w=400&q=80"
-          }
-        ]
-      }
-    ]
   }
 }
